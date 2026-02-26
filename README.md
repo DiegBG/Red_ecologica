@@ -34,25 +34,22 @@ All datasets are publicly available and properly cited.
 
 # Methodology
 
-1 Data acquisition and filtering
+1-Data acquisition and filtering
 
-2 Taxonomic validation and standardization
+2-Taxonomic validation and standardization
 
-3 Interaction matrix construction
+3-Interaction matrix construction
 
-4 Bipartite network modeling using NetworkX
+4-Bipartite network modeling using NetworkX
 
-5 Computation of ecological network metrics
+5-Computation of ecological network metrics
 
-6 Comparative and temporal analysis
+6-Comparative and temporal analysis
 
 # Technologies & Tools
-
--Python (pandas, numpy, networkx, matplotlib)
-
--Jupyter Notebook
-
--Git for version control
+- Python (pandas, numpy, networkx, matplotlib)
+- Jupyter Notebook
+- Git for version control
 
 # Reproducibility
 
