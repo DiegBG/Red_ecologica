@@ -1,4 +1,4 @@
-## Applied Bioinformatics & Ecological Network Analysis
+### Applied Bioinformatics & Ecological Network Analysis
 Overview
 
 This repository implements a reproducible bioinformatics workflow for the analysis of plant–pollinator ecological interaction networks using publicly available biodiversity and genetic datasets.
