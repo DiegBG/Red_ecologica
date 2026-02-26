@@ -67,15 +67,15 @@ Red_ecologica/
 
 │
 
-├── data/              # Raw and processed datasets
+├── data/                    # Raw and processed datasets
 
-├── notebooks/         # Jupyter notebooks for analysis
+├── notebooks/               # Jupyter notebooks for analysis
 
-├── src/               # Modularized analysis scripts
+├── src/                     # Modularized analysis scripts
 
-├── results/           # Generated figures and outputs
+├── results/                 # Generated figures and outputs
 
-├── requirements.txt   # Project dependencies
+├── requirements.txt         # Project dependencies
 
 └── README.md
 
