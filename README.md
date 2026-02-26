@@ -80,10 +80,10 @@ Red_ecologica/
 └── README.md
 
 # Key Outputs
--Bipartite ecological network visualization
--Species centrality metrics
--Interaction connectivity analysis
--Comparative temporal patterns
+- Bipartite ecological network visualization
+- Species centrality metrics
+- Interaction connectivity analysis
+- Comparative temporal patterns
 
 # Author
 
