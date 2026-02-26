@@ -56,7 +56,9 @@ All datasets are publicly available and properly cited.
 To reproduce the analysis:
 
 git clone https://github.com/DiegBG/Red_ecologica.git
+
 cd Red_ecologica
+
 pip install -r requirements.txt
 
 # Project Structure 
