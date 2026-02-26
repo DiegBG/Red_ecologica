@@ -33,16 +33,25 @@ The project is designed following principles of:
 All datasets are publicly available and properly cited.
 
 # Methodology
-- Data acquisition and filtering
-- Taxonomic validation and standardization
-- Interaction matrix construction
-- Bipartite network modeling using NetworkX
-- Computation of ecological network metrics
-- Comparative and temporal analysis
+
+1 Data acquisition and filtering
+
+2 Taxonomic validation and standardization
+
+3 Interaction matrix construction
+
+4 Bipartite network modeling using NetworkX
+
+5 Computation of ecological network metrics
+
+6 Comparative and temporal analysis
 
 # Technologies & Tools
+
 -Python (pandas, numpy, networkx, matplotlib)
+
 -Jupyter Notebook
+
 -Git for version control
 
 # Reproducibility
