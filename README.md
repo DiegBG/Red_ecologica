@@ -1,45 +1,62 @@
-# Applied Bioinformatics & Ecological Network Analysis
+Applied Bioinformatics & Ecological Network Analysis
+Overview
 
-## Overview
-This repository contains a reproducible bioinformatics pipeline for the analysis of plant–pollinator interaction networks using public biodiversity and genetic data.  
-The project focuses on data integration, cleaning, network construction, and analytical modeling to extract biologically meaningful patterns.
+This repository implements a reproducible bioinformatics workflow for the analysis of plant–pollinator ecological interaction networks using publicly available biodiversity and genetic datasets.
 
-The workflow is designed following best practices for **scientific reproducibility**, **data validation**, and **scalable analysis**.
+The pipeline integrates heterogeneous biological data, performs structured cleaning and validation, constructs bipartite ecological networks, and computes quantitative network metrics to extract biologically meaningful patterns.
 
----
+The project is designed following principles of:
 
-## Objectives
-- Integrate heterogeneous biological datasets from public repositories
-- Clean, standardize, and validate large biological datasets
-- Construct and analyze bipartite ecological networks
-- Identify key species using network metrics
-- Generate reproducible and interpretable analytical outputs
+Reproducibility
 
----
+Data integrity
 
-## Data Sources
-- **GBIF** – Species occurrence records  
-- **NCBI** – Genetic and taxonomic reference data  
+Structured documentation
 
-> All data used are publicly available and properly cited.
+Scalable analytical workflows
 
----
+Objectives
 
-## Methodology
-1. Data acquisition and filtering  
-2. Taxonomic standardization and validation  
-3. Construction of bipartite interaction networks  
-4. Network metrics computation (centrality, connectivity, species importance)  
-5. Temporal and comparative analyses  
+Integrate heterogeneous biological datasets from public repositories
 
----
+Clean, standardize, and validate taxonomic and occurrence data
 
-## Technologies & Tools
-- **Python** (pandas, numpy, networkx)
-- **Jupyter Notebooks**
-- **Data visualization** (matplotlib)
-- **Version control** (Git)
+Construct bipartite ecological interaction networks
 
----
+Compute network metrics (centrality, connectivity, species importance)
 
-## Project Structure
+Generate interpretable and reproducible analytical outputs
+
+Data Sources
+
+GBIF – Species occurrence records
+
+NCBI – Genetic and taxonomic reference data
+
+All datasets are publicly available and properly cited.
+
+Methodology
+
+Data acquisition and filtering
+
+Taxonomic validation and standardization
+
+Interaction matrix construction
+
+Bipartite network modeling using NetworkX
+
+Computation of ecological network metrics
+
+Comparative and temporal analysis
+
+Technologies & Tools
+
+Python (pandas, numpy, networkx, matplotlib)
+
+Jupyter Notebook
+
+Git for version control
+
+Reproducibility
+
+To reproduce the analysis:
