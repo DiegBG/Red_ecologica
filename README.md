@@ -1,5 +1,5 @@
 ### Applied Bioinformatics & Ecological Network Analysis
-Overview
+# Overview
 
 This repository implements a reproducible bioinformatics workflow for the analysis of plant–pollinator ecological interaction networks using publicly available biodiversity and genetic datasets.
 
@@ -7,56 +7,71 @@ The pipeline integrates heterogeneous biological data, performs structured clean
 
 The project is designed following principles of:
 
-Reproducibility
+- Reproducibility
+- Data integrity
+- Structured documentation
+- Scalable analytical workflows
 
-Data integrity
+# Objectives
 
-Structured documentation
+- Integrate heterogeneous biological datasets from public repositories
 
-Scalable analytical workflows
+- Clean, standardize, and validate taxonomic and occurrence data
 
-Objectives
+- Construct bipartite ecological interaction networks
 
-Integrate heterogeneous biological datasets from public repositories
+- Compute network metrics (centrality, connectivity, species importance)
 
-Clean, standardize, and validate taxonomic and occurrence data
+- Generate interpretable and reproducible analytical outputs
 
-Construct bipartite ecological interaction networks
+# Data Sources
 
-Compute network metrics (centrality, connectivity, species importance)
+- GBIF – Species occurrence records
 
-Generate interpretable and reproducible analytical outputs
-
-Data Sources
-
-GBIF – Species occurrence records
-
-NCBI – Genetic and taxonomic reference data
+- NCBI – Genetic and taxonomic reference data
 
 All datasets are publicly available and properly cited.
 
-Methodology
+# Methodology
+-Data acquisition and filtering
+-Taxonomic validation and standardization
+-Interaction matrix construction
+-Bipartite network modeling using NetworkX
+-Computation of ecological network metrics
+-Comparative and temporal analysis
 
-Data acquisition and filtering
+# Technologies & Tools
+-Python (pandas, numpy, networkx, matplotlib)
+-Jupyter Notebook
+-Git for version control
 
-Taxonomic validation and standardization
-
-Interaction matrix construction
-
-Bipartite network modeling using NetworkX
-
-Computation of ecological network metrics
-
-Comparative and temporal analysis
-
-Technologies & Tools
-
-Python (pandas, numpy, networkx, matplotlib)
-
-Jupyter Notebook
-
-Git for version control
-
-Reproducibility
+# Reproducibility
 
 To reproduce the analysis:
+
+git clone https://github.com/DiegBG/Red_ecologica.git
+cd Red_ecologica
+pip install -r requirements.txt
+
+# Project Structure 
+
+Red_ecologica/
+│
+├── data/              # Raw and processed datasets
+├── notebooks/         # Jupyter notebooks for analysis
+├── src/               # Modularized analysis scripts
+├── results/           # Generated figures and outputs
+├── requirements.txt   # Project dependencies
+└── README.md
+
+# Key Outputs
+-Bipartite ecological network visualization
+-Species centrality metrics
+-Interaction connectivity analysis
+-Comparative temporal patterns
+
+# Author
+
+Diego Antonio Becerril García
+Applied Bioinformatics | Scientific Data Analysis | Biomedical Engineering
+
