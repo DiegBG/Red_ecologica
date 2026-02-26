@@ -35,9 +35,13 @@ All datasets are publicly available and properly cited.
 # Methodology
 -Data acquisition and filtering
 -Taxonomic validation and standardization
+
 -Interaction matrix construction
+
 -Bipartite network modeling using NetworkX
+
 -Computation of ecological network metrics
+
 -Comparative and temporal analysis
 
 # Technologies & Tools
