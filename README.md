@@ -64,12 +64,19 @@ pip install -r requirements.txt
 # Project Structure 
 
 Red_ecologica/
+
 │
+
 ├── data/              # Raw and processed datasets
+
 ├── notebooks/         # Jupyter notebooks for analysis
+
 ├── src/               # Modularized analysis scripts
+
 ├── results/           # Generated figures and outputs
+
 ├── requirements.txt   # Project dependencies
+
 └── README.md
 
 # Key Outputs
